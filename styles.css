@@ -1,10 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    animation-duration: 1s;
+    font-family: Poppins;
+    text-align: left;
+    color: white;
 }
-button {
-    color: red;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #464646;
+
 }
-button:hover {
-    color: blue;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(78, 78, 78, 0.877);
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #df63d2af;
+}
+.active {
+    background-color: #e92fd6af;
+  }
+
+.up {
+    margin-left: 10%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: #e92fd6;
+    border-bottom-right-radius: 40%;
 }
