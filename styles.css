@@ -47,8 +47,37 @@ a {
 }
 
 .bg {
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     background-color: #e92fd6;
     border-bottom-right-radius: 40%;
+}
+
+.nav .icon {
+    background: url("favicon.ico");
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.mid {
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.lighter1 {
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+    background-color: rgba(87, 85, 85, 0.507);
+}
+
+.up h1 {
+    margin-left: -1%;
+    font-weight: bolder;
+    font-size: 350%;
 }
