@@ -1,0 +1,10 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-duration: 1s;
+}
+button {
+    color: red;
+}
+button:hover {
+    color: blue;
+}
